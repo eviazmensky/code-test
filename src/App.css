@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  max-width: 1600px;
 }
 
 .App-logo {
@@ -25,4 +26,14 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.game-section {
+  float: left;
+  width: 80%;
+}
+
+.chat-section {
+  float: right;
+  width: 20%;
 }
